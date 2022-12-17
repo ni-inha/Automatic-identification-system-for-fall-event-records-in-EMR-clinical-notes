@@ -129,7 +129,7 @@ def import_from_db(db_conn):
     yesterday_kst = yesterday.strftime('%Y%m%d%H')
     # yesterday_kst = convert_kst(yesterday.strftime('%Y%m%d%H')) # 한국 시간이 적용되지 않을 경우, 바로 윗 코드 대신 사용
 
-    SQL = f"SELECT inputdate, ptid, emr_NSGREC FROM emr_daily_input WHERE CAST(inputdate AS SIGNED) BETWEEN {yesterday_kst} AND {today_kst};"
+    SQL = f"SELECT inputdate, ptid, emr_NSGREC FROM emr_daily_input WHERE CAST(inputdate AS SIGNED)>={yesterday_kst} AND CAST(inputdate AS SIGNED)<{today_kst};"
     dataframe = pd.read_sql(SQL, db_conn)
 
     return dataframe
