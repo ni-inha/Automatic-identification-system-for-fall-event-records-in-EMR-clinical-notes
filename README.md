@@ -17,9 +17,11 @@
   - apscheduler
   - tzlocal
 
-## Installation
+## Preparation & Installation
 
-- [KLUE_BERT_model_weights.zip (1.4GB)](https://drive.google.com/file/d/10XGR6fHmS_wVfQwAQ0CX87i_xABfb-Go/view?usp=sharing)
+- KLUE_BERT_model_weights.zip (1.5GB)
+  - [One Drive](https://o365inha-my.sharepoint.com/:u:/g/personal/time_office_inha_ac_kr/EbfaEhre8KJNiEsPJiNR1ZABXXUyhnjL_X0rQt2WEkaqzA?e=497yv5)
+  - [Google Drive](https://drive.google.com/file/d/10XGR6fHmS_wVfQwAQ0CX87i_xABfb-Go/view?usp=sharing)
 
 위 압축파일을 프로젝트 폴더에 다운받고, 아래 명령어들을 실행합니다.
 
