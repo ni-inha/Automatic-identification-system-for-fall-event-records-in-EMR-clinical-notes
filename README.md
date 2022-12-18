@@ -15,7 +15,7 @@
   - pymysql
   - cryptography
   - apscheduler
-  - tzlocal==2.1
+  - tzlocal
 
 ## Installation
 
