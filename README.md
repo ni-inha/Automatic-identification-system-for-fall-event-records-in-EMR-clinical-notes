@@ -9,6 +9,7 @@
 - Software
   - Python 3.8
   - tensorflow==2.10.0
+  - keras==2.10.0
   - torch
   - transformers>=4.0.0
   - pandas
