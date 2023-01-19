@@ -1,4 +1,4 @@
-# Identification of Fall Event Records in Clinical Notes
+# Deep learning-based automatic **fall** event identification system in EMR clinical notes
 
 미세조정 [KLUE/BERT-base](https://huggingface.co/klue/bert-base) 모델을 활용한 EMR 임상노트 내 낙상사건 자동식별 시스템
 
